@@ -1,0 +1,45 @@
+[
+      {
+         "key":"serv_1",
+         "serv_n":"Child Care",
+         "serv_des":"Not all family child care homes may be required to follow a set of minimum health and safety requirements. It is always important to ask a family child care provider or check with your local Child Care Resource and Referral agency to check to see if your provider is required to be licensed.Some child care centers operate as non-profit and may be owned by an individual, church, public school, or a government agency. Other child care centers may operate as a for-profit and may be owned by an individual or a chain",
+         "serv_img":"https://i.ibb.co/GM4ng1p/image-5.jpg"
+
+      },
+
+      {
+         "key":"serv_2",
+         "serv_n":"Personal Care",
+         "serv_des":"We believe in Positive Beauty. A vision of beauty that’s equitable, inclusive and sustainable, with brands that not only do less harm, but also do more good for people and for the planet.With more than 1 billion people using our beauty and personal care products every day, and even more seeing our advertising, we know our brands have the power to make a positive",
+         "serv_img": "https://i.ibb.co/vz87WbW/doctor-5.jpg"
+
+      },
+      {
+         "key":"serv_3",
+         "serv_n":"CT scan",
+         "serv_des":"A CT scanner emits a series of narrow beams through the human body as it moves through an arc.This is different from an X-ray machine, which sends just one radiation beam. The CT scan produces a more detailed final picture than an X-ray image.The CT scanner’s X-ray detector can see hundreds of different levels of density. It can see tissues within a solid organ.",
+         "serv_img":"https://i.ibb.co/zVRbfm1/image-7.jpg"
+      },
+
+      {
+         "key":"serv_4",
+         "serv_n":"Joint replacement",
+         "serv_des":"Joint replacement means removing part or all of a damaged joint and installing hardware to allow the limb to move without pain or limitations. The replacement hardware is called a prosthesis. These are made of plastic, metal, ceramic, or a combination of these materials. Most joint replacements are performed to treat damage from arthritis to the knees or hips. Orthopedic surgeons do the procedure under general anesthesia.Age by itself does not prevent a person from getting a new joint, but being overweight or having a chronic health condition, such as heart disease, might raise the risks. It's also possible for the prosthesis to break, making it necessary to do a so-called revision procedure to fix it. hospital stay of a day or two is typical for knee or hip joint replacement. Physical therapy then helps the muscles around the new joint to get strong. Joint hardware can last 15 to 20 years or more, depending on the type and the person's level of physical activity",
+         "serv_img":"https://i.ibb.co/7v2YB98/image-4.jpg"
+      },
+
+      {
+         "key":"serv_5",
+         "serv_n":"Examination & Diagnosis",
+         "serv_des":"The physical examination continues the diagnostic process, adding information obtained by inspection, palpation, percussion, and auscultation. When data accumulated from the history and physical examination are complete, a working diagnosis is established, and tests are selected that will help to retain or exclude that diagnosis.Patients are usually apprehensive and anxious when being examined because they feel exposed, vulnerable, and afraid of discomfort. The physician attempts to allay that anxiety by explaining which examinations are to be performed and the degree of discomfort they will entail. Throughout the examination, concern for the patient’s dignity must be  maintained.A wide array of sophisticated instruments are available to assist with examinations, but a well-performed visual inspection can often reveal more information. Osler admonished physicians to closely observe patients before touching them, to cultivate the power of observation, as it is one of the greatest diagnostic tools. Thus, inspection should begin with the patient’s general appearance, state of nutrition, symmetry, and posture. Wasting and hallmarks of poor nutrition may indicate chronic disease; poor grooming or slack posture may suggest depression or low self-esteem.",
+         "serv_img":"https://i.ibb.co/Z8LDsjH/doctor-9.jpg"
+
+      },
+
+      {
+         "key":"serv_6",
+         "serv_n":"Alzheimer's disease",
+         "serv_des":"Alzheimer's is the most common cause of dementia, a general term for memory loss and other cognitive abilities serious enough to interfere with daily life. Alzheimer's disease accounts for 60-80% of dementia cases.Alzheimer's is not a normal part of aging. The greatest known risk factor is increasing age, and the majority of people with Alzheimer's are 65 and older. Alzheimer’s disease is considered to be younger-onset Alzheimer’s if it affects a person under 65. Younger-onset can also be referred to as early-onset Alzheimer’s. People with younger-onset Alzheimer’s can be in the early, middle or late stage of the disease.Alzheimer's worsens over time. Alzheimer's is a progressive disease, where dementia symptoms gradually worsen over a number of years. In its early stages, memory loss is mild, but with late-stage Alzheimer's, individuals lose the ability to carry on a conversation and respond to their environment. Alzheimer's is the sixth-leading cause of death in the United States. On average, a person with Alzheimer's lives 4 to 8 years after diagnosis but can live as long as 20 years, depending on other factors.",
+         "serv_img":"https://i.ibb.co/mBvXbYm/image-6.jpg"
+      }
+]

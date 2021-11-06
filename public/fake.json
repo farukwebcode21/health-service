@@ -1,0 +1,114 @@
+{
+   "doctors":[
+      {
+         "id":"101",
+         "name":"Haris Khan",
+         "specilist":"Cardiology",
+         "img":"https://i.ibb.co/r6wzQCr/doctor-13.jpg"
+      },
+      {
+         "id":"102",
+         "name":"Harrision Samuel",
+         "specilist":"Radiology",
+         "img":"https://i.ibb.co/ch43ddf/doctor-1.jpg"
+      },
+      {
+         "id":"103",
+         "name":"Alexandar James",
+         "specilist":"Dental",
+         "img":"https://i.ibb.co/LrGfgDJ/doctor-2.jpg"
+      },
+      {
+         "id":"104",
+         "name":"Rozina Karis",
+         "specilist":"Pediatry",
+         "img":"https://i.ibb.co/0jFyP1Z/doctor-3.jpg"
+      },
+      {
+         "id":"105",
+         "name":"Sarika Hossain",
+         "specilist":"Neurology",
+         "img":"https://i.ibb.co/xCj7HZX/doctor-4.jpg"
+      },
+      {
+         "id":"106",
+         "name":"Akhow Khan",
+         "specilist":"Palmology",
+         "img":"https://i.ibb.co/HY9TVfm/doctor-6.jpg"
+      },
+      {
+         "id":"107",
+         "name":"Rahim Kraim",
+         "specilist":"Cardiology",
+         "img":"https://i.ibb.co/znpD9RT/doctor-7.jpg"
+      },
+      {
+         "id":"108",
+         "name":"HarissonThomas",
+         "specilist":"Cardiology",
+         "img":"https://i.ibb.co/y5krZz2/doctor-8.jpg"
+      },
+      {
+         "id":"109",
+         "name":"FarissonThomas",
+         "specilist":"Traumatology",
+         "img":"https://i.ibb.co/Z8LDsjH/doctor-9.jpg"
+      },
+      {
+         "id":"110",
+         "name":"KelliRam",
+         "specilist":"Cardiology",
+         "img":"https://i.ibb.co/r6wzQCr/doctor-13.jpg"
+      },
+      {
+         "id":"111",
+         "name":"Swakhan jery",
+         "specilist":"hematology",
+         "img":"https://i.ibb.co/LrGfgDJ/doctor-2.jpg"
+      },
+      {
+         "id":"112",
+         "name":"Alexjandar Karim",
+         "specilist":"Dental",
+         "img":"https://i.ibb.co/rfm0XFL/doctor-12.jpg"
+      }
+   ],
+   "service":[
+      {
+         "key":"serv_1",
+         "serv_n":"Child Care",
+         "serv_des":"Our Child Care is very unique and development ",
+         "serv_img":"https://i.ibb.co/LrGfgDJ/doctor-2.jpg"
+      },
+      {
+         "key":"serv_2",
+         "serv_n":"Personal Care",
+         "serv_des":"Our Child Care is very unique and development ",
+         "serv_img":"https://i.ibb.co/zVRbfm1/image-7.jpg"
+      },
+      {
+         "key":"serv_3",
+         "serv_n":"CT scan",
+         "serv_des":"Our Child Care is very unique and development ",
+         "serv_img":"https://i.ibb.co/mBvXbYm/image-6.jpg"
+      },
+      {
+         "key":"serv_4",
+         "serv_n":"Joint replacement",
+         "serv_des":"Our Child Care is very unique and development ",
+         "serv_img":"https://i.ibb.co/GM4ng1p/image-5.jpg"
+      },
+      {
+         "key":"serv_5",
+         "serv_n":"Examination & Diagnosis",
+         "serv_des":"Our Child Care is very unique and development ",
+         "serv_img": "https://i.ibb.co/rfm0XFL/doctor-12.jpg"
+      },
+      {
+         "key":"serv_6",
+         "serv_n":"Alzheimer's disease",
+         "serv_des":"Our Child Care is very unique and development ",
+         "serv_img":"ttps://i.ibb.co/xCj7HZX/doctor-4.jpg"
+      }
+   ]
+}

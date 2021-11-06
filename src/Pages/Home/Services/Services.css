@@ -1,0 +1,8 @@
+.cta-page {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  background: url("../../../images/bg/banner.jpg") no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
