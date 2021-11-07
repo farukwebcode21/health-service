@@ -12,30 +12,51 @@ import Doctors from './Pages/Home/Doctors/Doctors'
 import SingleDoctor from './Pages/SingleDoctor/SingleDoctor/SingleDoctor'
 import AuthProvider from './contexts/AuthProvider'
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute'
+import SingleService from './Pages/SingleService/SingleService'
+
 
 const App = () => {
   return (
-    <div>
+    <>
       <AuthProvider>
         <Router>
         <Header/>
         <Switch>
-          <Route path="/home"><Home /></Route>
-          <Route exact path="/"><Home /></Route>
-          <Route path="/about"><About /></Route>
-          <Route path="/services"><Services /></Route>
-          <Route path="/doctors"><Doctors /></Route>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/services">
+              <Services />
+            </Route>
+            <PrivateRoute path="/SingleServices/:serveeId">
+              <SingleService/>
+            </PrivateRoute>
+            <Route path="/doctors">
+              <Doctors />
+            </Route>
           <PrivateRoute path="/singledoctor/:singleId">
             <SingleDoctor/>
           </PrivateRoute>
-          <PrivateRoute path="/appoinment"><Appoinment /></PrivateRoute>
-          <Route path="/login"><Login/></Route>
-          <Route exact path="*"><NotFound/></Route>
+            <PrivateRoute path="/appoinment">
+              <Appoinment />
+            </PrivateRoute>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route exact path="*">
+              <NotFound />
+            </Route>
         </Switch>
         <Footer/>
       </Router>
       </AuthProvider>
-    </div>
+    </>
   )
 }
 

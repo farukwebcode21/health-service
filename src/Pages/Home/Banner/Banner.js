@@ -1,28 +1,117 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Banner = () => {
     return (
-        <div>
-            <section className="banner">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-6 col-md-12 col-xl-7">
-                        <div className="block">
-                            <div className="divider mb-3"></div>
-                            <span className="text-uppercase text-sm letter-spacing ">Total Health care solution</span>
-                            <h1 className="mb-3 mt-3">Your most trusted health partner</h1>
+        <>
+        <section className="banner">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 col-md-12 col-xl-7">
+                            <div className="block">
+                                <div className="divider mb-3"></div>
+                                <span className="text-uppercase text-sm letter-spacing ">Total Health care solution</span>
+                                <h1 className="mb-3 mt-3">Your most trusted health partner</h1>
 
-                            <p className="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
-                            <div className="btn-container ">
-                                <Link to="#appoinment" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment</Link>
+                                <p className="mb-4 pr-5">A repudiandae ipsam labore ipsa voluptatum quidem quae laudantium quisquam aperiam maiores sunt fugit, deserunt rem suscipit placeat.</p>
+                                <div className="btn-container ">
+                                    <button href="#appoinment" target="_blank" className="btn btn-main-2 btn-icon btn-round-full">Make appoinment</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
-        </div>
+        <section className="section service gray-bg">
+	        <div className="container">
+                <div className="row justify-content-center">
+                <div className="col-lg-7 text-center">
+                    <div className="section-title">
+                        <h2>Award winning patient care</h2>
+                        <div className="divider mx-auto my-4"></div>
+                        <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+                    </div>
+                </div>
+                </div>
+
+		        <div className="row">
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="service-item mb-4">
+                            <div className="icon d-flex align-items-center">
+                                <i className="icofont-laboratory text-lg"></i>
+                                <h4 className="mt-3 mb-3">Laboratory services</h4>
+                            </div>
+
+                            <div className="content">
+                                <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="service-item mb-4">
+                            <div className="icon d-flex align-items-center">
+                                <i className="icofont-heart-beat-alt text-lg"></i>
+                                <h4 className="mt-3 mb-3">Heart Disease</h4>
+                            </div>
+                            <div className="content">
+                                <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="service-item mb-4">
+                            <div className="icon d-flex align-items-center">
+                                <i className="icofont-tooth text-lg"></i>
+                                <h4 className="mt-3 mb-3">Dental Care</h4>
+                            </div>
+                            <div className="content">
+                                <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="service-item mb-4">
+                            <div className="icon d-flex align-items-center">
+                                <i className="icofont-crutch text-lg"></i>
+                                <h4 className="mt-3 mb-3">Body Surgery</h4>
+                            </div>
+
+                            <div className="content">
+                                <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="service-item mb-4">
+                            <div className="icon d-flex align-items-center">
+                                <i className="icofont-brain-alt text-lg"></i>
+                                <h4 className="mt-3 mb-3">Neurology Sargery</h4>
+                            </div>
+                            <div className="content">
+                                <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="service-item mb-4">
+                            <div className="icon d-flex align-items-center">
+                                <i className="icofont-dna-alt-1 text-lg"></i>
+                                <h4 className="mt-3 mb-3">Gynecology</h4>
+                            </div>
+                            <div className="content">
+                                <p className="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+                            </div>
+                        </div>
+                    </div>
+		        </div>
+	        </div>
+        </section>
+        </>
     )
 }
 

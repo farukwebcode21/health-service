@@ -73,6 +73,7 @@
          "img":"https://i.ibb.co/rfm0XFL/doctor-12.jpg"
       }
    ],
+
    "service":[
       {
          "key":"serv_1",
@@ -110,5 +111,63 @@
          "serv_des":"Our Child Care is very unique and development ",
          "serv_img":"ttps://i.ibb.co/xCj7HZX/doctor-4.jpg"
       }
-   ]
+   ],
+
+   "about":[
+      {
+         "code": "ab",
+         "name" : "Healthcare for Kids",
+         "img":"https://i.ibb.co/vXDpcgr/image-3.jpg",
+         "descrion": "The All Kids program offers many Illinois children comprehensive healthcare that includes doctors visits, hospital stays, prescription drugs, vision care, dental care and medical devices like eyeglasses and asthma"
+      },
+
+      {
+         "code": "ac",
+         "name" : "Medical Counseling",
+         "img":"https://i.ibb.co/JtC0qsf/image-8.jpg",
+         "descrion": "The All Kids program offers many Illinois children comprehensive healthcare that includes doctors visits, hospital stays, prescription drugs, vision care, dental care and medical devices like eyeglasses and asthma inhalers. Some families pay monthly premiums for the coverage"
+      },
+
+      {
+         "code": "ad",
+         "name" : "Modern Equipments",
+         "img":"https://i.ibb.co/mBvXbYm/image-6.jpg",
+         "descrion": "The All Kids program offers many Illinois children comprehensive healthcare that includes doctors visits, hospital stays, prescription drugs, vision care, dental care and medical devices like eyeglasses and asthma "
+      },
+
+      {
+         "code": "ae",
+         "name" : "Qualified Doctors",
+         "img":"https://i.ibb.co/0jFyP1Z/doctor-3.jpg",
+         "descrion": "The All Kids program offers many Illinois children comprehensive healthcare that includes doctors visits, hospital stays, prescription drugs, vision care, dental care and medical devices like eyeglasses "
+      }
+
+   ],
+
+     "achivement":[
+         {
+            "achive_id" : "a",
+            "achive_logo": "https://i.ibb.co/B2KNnR2/1.png"
+         },
+          {
+            "achive_id" : "b",
+            "achive_logo": "https://i.ibb.co/gTX1FwY/2.png"
+         },
+          {
+            "achive_id" : "c",
+            "achive_logo": "https://i.ibb.co/wS21gB0/3.png"
+         },
+          {
+            "achive_id" : "d",
+            "achive_logo": "https://i.ibb.co/DgVfYDF/4.png"
+         },
+          {
+            "achive_id" : "e",
+            "achive_logo": "https://i.ibb.co/4dpsGTY/5.png"
+         },
+          {
+            "achive_id" : "f",
+            "achive_logo": "https://i.ibb.co/D1BXXyW/05.png"
+         }
+      ]
 }

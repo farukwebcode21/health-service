@@ -9,7 +9,7 @@ const Header = () => {
         <div className="container sticky-top">
             <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-1 border-bottom">
             <Link to="/home" className="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img src={logo} alt=""/>
+                <img src={logo} alt=""/>Bd Healthcare
             </Link>
 
             <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -22,7 +22,7 @@ const Header = () => {
                     {user.email ?
                         <button onClick={logOut} type="button" className="btn btn-primary mx-4">LogOut</button>:
                         <Link to="/login" type="button" className="btn btn-outline-primary me-2">Login</Link>}
-                     <button type="button" className="btn btn-primary">Signed in : {user.displayName}</button>
+                     <button type="button" className="btn btn-primary">User Name : {user.displayName}</button>
                 </div>
             </ul>
             </header>

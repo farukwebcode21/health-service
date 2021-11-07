@@ -1,14 +1,13 @@
 import React from 'react'
 import { useParams } from 'react-router'
 
-const SingleDoctor = () => {
-    const { singleId } = useParams();
-
+const SingleService = () => {
+    const { serveeId } = useParams();
     return (
         <div className="container text-center">
-            <h4>This is single doctors:{ singleId}</h4>
+            <h1>Our Service Details :{ serveeId }</h1>
         </div>
     )
 }
 
-export default SingleDoctor
+export default SingleService

@@ -5,10 +5,10 @@ import Banner from '../Banner/Banner'
 
 const Home = () => {
     return (
-        <body id="top">
+        <>
             <Banner />
             <About/>
-        </body>
+        </>
     )
 }
 
