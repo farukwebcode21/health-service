@@ -6,8 +6,7 @@ import {
     onAuthStateChanged,
     GithubAuthProvider,
     FacebookAuthProvider,
-    createUserWithEmailAndPassword,
-    signInWithEmailAndPassword
+    createUserWithEmailAndPassword
 } from "firebase/auth";
 import { useEffect } from "react";
 import { useState } from "react";

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth'
 import { getAuth, updateProfile, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 
@@ -7,10 +6,7 @@ import { getAuth, updateProfile, createUserWithEmailAndPassword, signInWithEmail
 const Login = () => {
     const auth = getAuth();
     const {
-        signInUsingGoogle,
-        signInUsingGithub,
-        signInUsingFacebook,
-        registationEmailPassword } = useAuth();
+        signInUsingGoogle, signInUsingGithub} = useAuth();
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

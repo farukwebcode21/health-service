@@ -31,12 +31,12 @@ const App = () => {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/services">
+            <PrivateRoute path="/services">
               <Services />
-            </Route>
-            <PrivateRoute path="/SingleServices/:serveeId">
-              <SingleService/>
             </PrivateRoute>
+            <Route path="/SingleServices/:serveeId">
+              <SingleService/>
+            </Route>
             <Route path="/doctors">
               <Doctors />
             </Route>
