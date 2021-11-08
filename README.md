@@ -1,16 +1,16 @@
-## bd Health Care Simple Website
+## Bd Health Care Simple Website
 
 ## Use This Project:
 
     [x] GetBootstrap CDN Link
     [x] fontawesome
     [x] React Router Dom
-    [x] (https://icofont.com/)
+    [x] icofont (interesting you can try it)
     [x] Firebase
 
 In the project directory, you can run:
 
-### Our Website Name Service :
+### Our Website Menu Simple Description :
 
     [1] Home = Menu Show Banner Section & about Secton
     [2] About = Show Single Details
