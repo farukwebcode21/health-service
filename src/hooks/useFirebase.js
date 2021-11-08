@@ -5,7 +5,9 @@ import {
     signOut,
     onAuthStateChanged,
     GithubAuthProvider,
-    FacebookAuthProvider
+    FacebookAuthProvider,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword
 } from "firebase/auth";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -16,6 +18,7 @@ initializeAuthentication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
+
 
     const auth = getAuth();
 
@@ -54,6 +57,13 @@ const useFirebase = () => {
         })
     }
 
+    // ==================Gmail & Password login=================
+    const registationEmailPassword = (email, password) => {
+        setIsLoading(true)
+        return createUserWithEmailAndPassword(auth, email, password)
+    };
+
+
     // observe user state change
 
     useEffect(() => {
@@ -80,7 +90,8 @@ const useFirebase = () => {
         logOut,
         isLoading,
         signInUsingGithub,
-        signInUsingFacebook
+        signInUsingFacebook,
+        registationEmailPassword
 
     }
 }

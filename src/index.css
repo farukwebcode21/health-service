@@ -68,7 +68,7 @@ p {
   background: #223a66;
 }
 
-/* input[type="email"],
+input[type="email"],
 input[type="password"],
 input[type="text"],
 input[type="tel"] {
@@ -84,7 +84,7 @@ input[type="text"]:focus,
 input[type="tel"]:focus {
   box-shadow: none;
   border: 1px solid #223a66;
-} */
+}
 
 .form-control {
   box-shadow: none;
@@ -580,4 +580,7 @@ service {
 
 .department-service li i {
   color: #e12454;
+}
+.pointer {
+  cursor: pointer;
 }

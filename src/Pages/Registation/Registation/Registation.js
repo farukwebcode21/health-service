@@ -1,28 +1,20 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import useAuth from '../../../hooks/useAuth'
-import { getAuth, updateProfile, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import useAuth from '../../../hooks/useAuth';
+// Register login pupose input
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
-
-const Login = () => {
-    const auth = getAuth();
-    const {
+const Registation = () => {
+     const {
         signInUsingGoogle,
         signInUsingGithub,
         signInUsingFacebook,
-        registationEmailPassword } = useAuth();
-    const [name, setName] = useState('');
+        setIsLoading
+        } = useAuth;
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
-    const [isLogin, setIsLogin] = useState(false);
+    const [error, setError] = useState('')
 
-    const toggleLogin = (e) => {
-        setIsLogin(e.target.checked)
-    }
-    const handleNameChange = (e) => {
-        setName(e.target.value);
-    }
 
     const handleEmailChange = (e) => {
         setEmail(e.target.value);
@@ -33,6 +25,7 @@ const Login = () => {
 
     const handleRegistration = (e) => {
         e.preventDefault();
+        const auth = getAuth();
         if (password.length < 6) {
             setError('Password Must be alt least 6 character .')
             return;
@@ -41,47 +34,17 @@ const Login = () => {
             setError('Password Must contain 2 Upper case');
             return;
         }
-        // isLogin ?  processLogin(email, password): registerNewUser(email, password);
-        if (isLogin) {
-            processLogin(email, password);
-        } else {
-            registerNewUser(email, password);
-        }
-
-    }
-
-    const setUserName = () => {
-        updateProfile(auth.currentUser, { displayName: name })
-        .then(result => {})
-    }
-
-    const processLogin = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
+        createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
                 console.log(user);
                 setError("");
             })
             .catch(error => {
-                setError("Your email is not registared please registared");
+            setError(error.message)
         })
 
     }
-
-
-    const registerNewUser = (email, password) => {
-          createUserWithEmailAndPassword(auth, email, password)
-            .then(result => {
-                const user = result.user;
-                console.log(user);
-                setError("");
-                setUserName();
-            })
-            .catch(error => {
-            setError("This Email already in use")
-        })
-    }
-
 
     return (
         <div className="container">
@@ -89,7 +52,7 @@ const Login = () => {
                 <div className="col-md-12">
                     <div className="card">
                         <article className="card-body py-5 px-5">
-                            <h4 className="card-title mb-4 mt-1 text-center text-uppercase">Please {isLogin ? 'Login' : 'Registation'}</h4>
+                            <h4 className="card-title mb-4 mt-1 text-center text-uppercase">Please Login / Register</h4>
                             <p className="text-center">
                                 <button onClick={signInUsingGoogle} className="btn btn-block btn-outline-info mx-2">Login via Google</button>
                                 {/* <button onClick={signInUsingFacebook} className="btn btn-block btn-outline-primary mx-2"> Login via facebook</button> */}
@@ -97,29 +60,32 @@ const Login = () => {
                             </p>
 
                             <form onSubmit={handleRegistration} className="px-5 m-auto w-50">
-                                {!isLogin && <div className="form-group mb-2">
+                                {/* <div className="form-group mb-2">
                                     <input onBlur={handleNameChange} name="" className="form-control" placeholder="Please Type Your Name" type="name" required/>
-                                </div> }
+                                </div> */}
                                 <div className="form-group mb-2">
-                                    <input onBlur={handleEmailChange} name="" className="form-control" placeholder="Email or login" type="email" required/>
+                                    <input onBlur={handleEmailChange} name="" className="form-control" placeholder="Please Type Your Email " type="email" required/>
                                 </div>
                                 <div className="form-group mb-2">
-                                    <span className="text-danger">{error }</span>
+                                    <span className="text-danger">{error}</span>
                                     <input onBlur={handlePasswordChange} name="" className="form-control" placeholder="*********" type="password" required/>
                                 </div>
-                                 <div className="form-check mb-2">
-                                    <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1"></input>
+                                <div className="form-check mb-2">
+                                    <input className="form-check-input" type="checkbox" id="gridCheck1"></input>
                                     <label className="form-check-leble" htmlFor="gridCheck1">Alrdeady Register ?</label>
                                 </div>
 
                                 <div className="row">
                                     <div className="col-md-12 col-sm-12">
                                         <div className="form-group">
-                                             <button type="submit" className="btn btn-primary btn-block"> {isLogin ? "Login": 'Registation'} </button>
+                                             <button type="submit" className="btn btn-primary btn-block"> Registation </button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
+                            <div className="container m-auto text-center px-5 py-2">
+                                <p className="text-danger">You Have al-ready account ?<Link to="/login" className="text-success pointer"> Login </Link></p>
+                           </div>
                         </article>
                     </div>
                 </div>
@@ -128,4 +94,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Registation
