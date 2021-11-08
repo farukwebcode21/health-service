@@ -1,12 +1,12 @@
-# Getting Started with Create React App
+## bd Health Care Simple Website
 
 ## Use This Project:
 
     [x] GetBootstrap CDN Link
     [x] fontawesome
-    [*] React Router Dom
-    [iconfont](https://icofont.com/)
-    [*] Firebase
+    [x] React Router Dom
+    [x] (https://icofont.com/)
+    [x] Firebase
 
 In the project directory, you can run:
 
@@ -22,8 +22,8 @@ In the project directory, you can run:
 
 ## Git Clone Link
 
--: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-farukwebcode21.git
+[x] https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-farukwebcode21.git
 
 ## Website Live Link
 
-[] <a href="https://health-care-5b2d5.web.app/">Bd Health Care</a>
+[x] <a href="https://health-care-5b2d5.web.app/">Bd Health Care</a>
