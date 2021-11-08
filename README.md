@@ -2,40 +2,20 @@
 
 ## Use This Project:
 
-    -[] GetBootstrap CDN Link
-    -[] fontawesome
-    -[] React Router Dom
+    -[x] GetBootstrap CDN Link
+    -[x] fontawesome
+    -[*] React Router Dom
     -[iconfont](https://icofont.com/)
-    -[] Firebase
+    -[*] Firebase
 
 In the project directory, you can run:
 
 ### Our Website Name Service :
 
-    1.Home = Menu Show Banner Section & about Secton
-    2.About = Show Single Details
-    3.Service = Service Menu Show six Category Service Name & Service Details is inside Privete Route
-    4.Doctors = Show Doctor Name  and Doctors Detail is inside Prive Route
-    5. Appointment menu use Private route
-    6. Login/Logout
-    7. User Name :
-
-### Website Live Link
-
-###
-
-###
-
-##
-
-###
-
-###
-
-###
-
-###
-
-### Deployment
-
-###
+    [].Home = Menu Show Banner Section & about Secton
+    [2].About = Show Single Details
+    [3].Service = Service Menu Show six Category Service Name & Service Details is inside Privete Route
+    [4].Doctors = Show Doctor Name  and Doctors Detail is inside Prive Route
+    [5]. Appointment menu use Private route
+    [6]. Login/Logout
+    [7]. User Name :
